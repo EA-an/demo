@@ -1,7 +1,7 @@
 <template>
     <div class="top-last-warpper">
             <img src="" alt="">
-            <span @click="login" v-show="!islogin">登录</span>
+            <span  v-show="!islogin">登录</span>
             <span  v-show="islogin">个人中心</span>
         </div>
 </template>
@@ -14,7 +14,7 @@ export default{
     },
     methods:{
         login(){
-            
+
             
 
         }
